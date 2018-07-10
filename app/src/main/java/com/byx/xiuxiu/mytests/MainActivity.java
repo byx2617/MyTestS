@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         tv = (TextView) findViewById(R.id.tv);
         tv.setText("天下都是朕的！");
+        tv.setAutoLinkMask(INPUT_SERVICE.hashCode());
     }
 }
